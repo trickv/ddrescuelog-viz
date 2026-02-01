@@ -1,0 +1,13 @@
+# Rendered output files
+*.png
+*.html
+
+# ddrescue log files
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
