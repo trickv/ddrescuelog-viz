@@ -57,3 +57,13 @@ The tool shows:
 - Percentage completion
 
 For the HTML output, hover over any region to see detailed information including exact position and size.
+
+## Companion script: `power_cycle_drive.py`
+
+When ddrescue gets stuck on a flaky drive, sometimes the only way to make progress is to power-cycle the drive and let the SCSI bus rediscover it. `power_cycle_drive.py` is the script I use for this on my own setup: it toggles a Home Assistant relay, triggers a SCSI rescan, and waits for the device to reappear.
+
+It is intentionally a personal-setup example rather than a generic tool — the Home Assistant URL, relay entity ID, SCSI host number, and target device path are hardcoded at the top of `main()`. Edit those for your own environment, and set `HASS_LLAC` to a Home Assistant long-lived access token.
+
+## License
+
+MIT — see [LICENSE](LICENSE).
