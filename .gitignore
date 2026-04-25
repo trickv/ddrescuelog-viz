@@ -1,6 +1,7 @@
 # Rendered output files
 *.png
 *.html
+!screenshot.png
 
 # ddrescue log files
 *.log
