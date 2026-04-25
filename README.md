@@ -4,6 +4,8 @@ A tool to visualize GNU ddrescue mapfiles as horizontal bar charts with color-co
 
 ![Screenshot of the interactive HTML output](screenshot.png)
 
+![Screenshot of the terminal output](screenshot-cli.png)
+
 ## Features
 
 - **Terminal output**: Color-coded ASCII visualization

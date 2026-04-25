@@ -2,6 +2,7 @@
 *.png
 *.html
 !screenshot.png
+!screenshot-cli.png
 
 # ddrescue log files
 *.log
